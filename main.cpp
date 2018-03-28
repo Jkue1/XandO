@@ -40,6 +40,25 @@ int main()
     {
       cout<<"Values must be between 0 and 2.\n";
     }
+
+    else {board[row][column]=turn;}
+    if (turn== 'X')
+    {turn = 'O';}
+
+
+   cout<<"'\nBOARD\n-----\n";
+   for (int R=0; R<ROWS; R++)
+    {
+        for( int C=0; C<COLUMNS; C++)
+        {
+            cout<<board[R][C]<<"  \n";
+         }
+    }
+    //placed piece swap turns.
+    
+
+    
+
     //TODO: Place the piece and swap turns
     //Outline
     //1. When neither of the (above) if nor else if statements are true, then...
@@ -49,7 +68,8 @@ int main()
     //1-C.  In any other case, then...
     //1-C-1.  turn should be assigned the value 'X'
     
-    cout<<"\nBOARD\n-----\n";
+   
+
     //TODO: Print the current board
     //Outline
     //1. Traverse through each row, calling the current row r
