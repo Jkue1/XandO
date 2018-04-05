@@ -62,7 +62,13 @@ int main()
     {
         cout<<"Winner is X\n";
     }
-       /* else if ( board[i][i] == 'X' && board[i+1][i] == 'X' && board[i+2][i] == 'X')
+    if ( (board[0][0] == 'O' && board[0][1] == 'O' && board [0][2] == 'O') || (board[0][0] == 'O' && board[1][0] == 'O' && board [2][0] == 'O') || (board[0][1] == 'O' && board[1][1] == 'O' && board [2][1] == 'O') || (board[0][2] == 'O' && board[1][2] == 'O' && board [2][2] == 'O') || (board[1][0] == 'O' && board[1][1] == 'O' && board [1][2] == 'O') || (board[2][0] == 'O' && board[2][1] == 'O' && board [2][2] == 'O') || (board[0][0] == 'O' && board[1][1] == 'O' && board [2][2] == 'O') || (board[0][2] == 'O' && board[1][1] == 'O' && board [2][0] == 'O') )
+
+    {
+        cout<<"Winner is O\n";
+    }
+
+/* else if ( board[i][i] == 'X' && board[i+1][i] == 'X' && board[i+2][i] == 'X')
         {
             cout<<"Winner is X\n";
         }*/
