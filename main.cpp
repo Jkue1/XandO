@@ -49,7 +49,7 @@ int main()
     
 
 
-   cout<<"'\nBOARD\n-----\n";
+   cout<<"\nBOARD\n-----\n";
    for (int R=0; R<ROWS; R++)
     {
         for( int C=0; C<COLUMNS; C++)
