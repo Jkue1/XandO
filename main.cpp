@@ -58,7 +58,7 @@ int main()
    
     }
  
-    if ( (board[0][0] == 'X' && board[0][1] == 'X' && board [0][2] == 'X')
+    if ( (board[0][0] == 'X' && board[0][1] == 'X' && board [0][2] == 'X') || (board[0][0] == 'X' && board[1][0] == 'X' && board [2][0] == 'X') || (board[0][1] == 'X' && board[1][1] == 'X' && board [2][1] == 'X') || (board[0][2] == 'X' && board[1][2] == 'X' && board [2][2] == 'X') || (board[1][0] == 'X' && board[1][1] == 'X' && board [1][2] == 'X') || (board[2][0] == 'X' && board[2][1] == 'X' && board [2][2] == 'X') || (board[0][0] == 'X' && board[1][1] == 'X' && board [2][2] == 'X') || (board[0][2] == 'X' && board[1][1] == 'X' && board [2][0] == 'X') )
     {
         cout<<"Winner is X\n";
     }
@@ -67,7 +67,7 @@ int main()
             cout<<"Winner is X\n";
         }*/
        
-    }
+    
     
     //placed piece swap turns.
     
