@@ -22,6 +22,7 @@ int main()
   int row;
   int column;
   bool playing = true; //Continue playing by default
+  char winner;
 
   do
   {
@@ -42,8 +43,9 @@ int main()
     }
 
     else {board[row][column]=turn;}
-    if (turn== 'X')
-    {turn = 'O';}
+    if (turn == 'X')
+    {turn == 'O';}
+    
 
 
    cout<<"'\nBOARD\n-----\n";
@@ -52,8 +54,21 @@ int main()
         for( int C=0; C<COLUMNS; C++)
         {
             cout<<board[R][C]<<"  \n";
-         }
+        }
+   
     }
+ 
+    if ( (board[0][0] == 'X' && board[0][1] == 'X' && board [0][2] == 'X')
+    {
+        cout<<"Winner is X\n";
+    }
+       /* else if ( board[i][i] == 'X' && board[i+1][i] == 'X' && board[i+2][i] == 'X')
+        {
+            cout<<"Winner is X\n";
+        }*/
+       
+    }
+    
     //placed piece swap turns.
     
 
