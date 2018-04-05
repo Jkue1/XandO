@@ -54,9 +54,10 @@ int main()
     {
         for( int C=0; C<COLUMNS; C++)
         {
-            cout<<board[R][C]<<"  \n";
+            cout<<board[R][C]<<"  ";
+
         }
-   
+        cout<<endl;
     }
     
     if ( (board[0][0] == 'X' && board[0][1] == 'X' && board [0][2] == 'X') || (board[0][0] == 'X' && board[1][0] == 'X' && board [2][0] == 'X') || (board[0][1] == 'X' && board[1][1] == 'X' && board [2][1] == 'X') || (board[0][2] == 'X' && board[1][2] == 'X' && board [2][2] == 'X') || (board[1][0] == 'X' && board[1][1] == 'X' && board [1][2] == 'X') || (board[2][0] == 'X' && board[2][1] == 'X' && board [2][2] == 'X') || (board[0][0] == 'X' && board[1][1] == 'X' && board [2][2] == 'X') || (board[0][2] == 'X' && board[1][1] == 'X' && board [2][0] == 'X') )
