@@ -54,7 +54,7 @@ int main()
     {
         for( int C=0; C<COLUMNS; C++)
         {
-            cout<<board[R][C]<<"  ";
+            cout<<board[R][C]<<" ";
 
         }
         cout<<endl;
